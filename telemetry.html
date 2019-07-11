@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="telemetry.css">
+    <title>Telemetry</title>
+</head>
+<body>
+    <script src="telemetry.js"></script>
+    <div>
+        <p>Telemetry Point IDs</p>
+        <label for="pwrv">pwr.v</label>
+        <input type="checkbox" name="pwrv" id="pwrv" value="pwr.v" onchange="setState(value, checked)">
+        <label for="pwrc">pwr.c</label>
+        <input type="checkbox" name="pwrc" id="pwrc" value="pwr.c" onchange="setState(value, checked)">
+    </div>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th onclick="changeSort()">Timestamp</th>
+            <th>Value</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>
