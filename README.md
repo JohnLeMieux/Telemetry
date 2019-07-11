@@ -2,10 +2,12 @@
 
 This is an exercise based on the below project. Similar to the below, install this module with
 
+```
 git clone https://github.com/JohnLeMieux/Telemetry.git
 cd Telemetry/
 npm install
 npm start
+```
 
 Open a browser and navigate to http://localhost:8080/telemetry.html.
 
