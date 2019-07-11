@@ -1,3 +1,16 @@
+# Open MCT Coding exercise
+
+This is an exercise based on the below project. Similar to the below, install this module with
+
+git clone https://github.com/JohnLeMieux/Telemetry.git
+cd Telemetry/
+npm install
+npm start
+
+Open a browser and navigate to http://localhost:8080/telemetry.html.
+
+You are presented with checkboxes for Telemetry Point IDs and an empty data table. Checking either box will fetch telemetry data for the last 15 minutes, as well as live data from the local realtime server, and populate the table, sorted by ascending time. Clicking the Timestamp column header will reverse the sorting order. Unchecking a box will remove telemetry data for that data point from the table.
+
 # Open MCT Integration Tutorials
 
 These tutorials will walk you through the simple process of integrating your telemetry systems with Open MCT.  In case you don't have any telemetry systems, we've included a reference implementation of a historical and realtime server.  We'll take you through the process of integrating those services with Open MCT.
